@@ -5,7 +5,7 @@ def while_loop(a: int) -> int:
         a+=1
     return b
 
-if__name__ = '__main__':
+if__name__ == '__main__':
     forward_sum = while_loop(6)
     print(forward_sum)
     
