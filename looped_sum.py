@@ -9,7 +9,7 @@ def while_loop(a: int) -> int:
 def main():
     forward_sum = while_loop(6)
     looped_sum = while_loop(0)
-    print(forward_sum+looped_sum)
+    print(forward_sum + looped_sum)
 
 
 main()
