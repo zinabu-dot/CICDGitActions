@@ -5,6 +5,7 @@ def while_loop(a: int) -> int:
         a += 1  # Increment 'a' to eventually break the loop
     return b
 
+
 if __name__ == '__main__':
     forward_sum = while_loop(6)
     print(forward_sum)
